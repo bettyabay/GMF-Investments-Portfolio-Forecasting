@@ -1,4 +1,3 @@
-```markdown
 # GMF Investments Portfolio Forecasting
 
 ## Overview
