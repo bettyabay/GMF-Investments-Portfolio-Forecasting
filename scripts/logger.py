@@ -54,7 +54,7 @@ class SetupLogger:
         """
         return self.logger
     
-      ''' The configured logger instance that was set up in __init__() with the specified log file,
+    ''' The configured logger instance that was set up in __init__() with the specified log file,
             log level, file handler and formatter. This logger can be used throughout the application
             to write log messages at different severity levels (debug, info, warning, error) which
             will be written to the log file with timestamps and other metadata. '''
