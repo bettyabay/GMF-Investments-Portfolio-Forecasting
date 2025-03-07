@@ -1,0 +1,116 @@
+2025-03-07 13:57:27,517 - logger - ERROR - Data file for symbol 'TSLA' not found. Run `get_data()` first.
+2025-03-07 14:00:42,737 - logger - INFO - Data inspection results:
+{'data_types': Open      float64
+High      float64
+Low       float64
+Close     float64
+Volume      int64
+dtype: object, 'missing_values': Open      0
+High      0
+Low       0
+Close     0
+Volume    0
+dtype: int64, 'duplicate_rows': np.int64(0)}
+2025-03-07 14:01:39,821 - logger - INFO - Data inspection results:
+{'data_types': Open      float64
+High      float64
+Low       float64
+Close     float64
+Volume    float64
+dtype: object, 'missing_values': Open      0
+High      0
+Low       0
+Close     0
+Volume    0
+dtype: int64, 'duplicate_rows': np.int64(0)}
+2025-03-07 14:02:29,743 - logger - INFO - Data inspection results:
+{'data_types': Open      float64
+High      float64
+Low       float64
+Close     float64
+Volume    float64
+dtype: object, 'missing_values': Open      0
+High      0
+Low       0
+Close     0
+Volume    0
+dtype: int64, 'duplicate_rows': np.int64(0)}
+2025-03-07 14:03:44,977 - logger - INFO - Basic statistics calculated for data:
+{'mean': Open      1.157035e+02
+High      1.182977e+02
+Low       1.129867e+02
+Close     1.156793e+02
+Volume    1.115986e+08
+dtype: float64, 'median': Open      2.841365e+01
+High      2.880585e+01
+Low       2.735000e+01
+Close     2.850565e+01
+Volume    9.233699e+07
+dtype: float64, 'std_dev': Open      1.143137e+02
+High      1.169455e+02
+Low       1.114850e+02
+Close     1.142265e+02
+Volume    7.443890e+07
+dtype: float64, 'missing_values': Open      0
+High      0
+Low       0
+Close     0
+Volume    0
+dtype: int64}
+2025-03-07 14:04:18,012 - logger - INFO - Basic statistics calculated for data:
+{'mean': Open      7.524102e+01
+High      7.534659e+01
+Low       7.512529e+01
+Close     7.523730e+01
+Volume    4.393031e+06
+dtype: float64, 'median': Open      7.333250e+01
+High      7.343290e+01
+Low       7.320830e+01
+Close     7.333100e+01
+Volume    3.950846e+06
+dtype: float64, 'std_dev': Open      4.943419e+00
+High      4.944907e+00
+Low       4.937775e+00
+Close     4.942553e+00
+Volume    2.768242e+06
+dtype: float64, 'missing_values': Open      0
+High      0
+Low       0
+Close     0
+Volume    0
+dtype: int64}
+2025-03-07 14:04:41,317 - logger - INFO - Basic statistics calculated for data:
+{'mean': Open      3.223852e+02
+High      3.241322e+02
+Low       3.204834e+02
+Close     3.224328e+02
+Volume    9.294495e+07
+dtype: float64, 'median': Open      2.855180e+02
+High      2.862475e+02
+Low       2.844430e+02
+Close     2.854940e+02
+Volume    8.044111e+07
+dtype: float64, 'std_dev': Open      1.164724e+02
+High      1.170510e+02
+Low       1.158129e+02
+Close     1.164768e+02
+Volume    5.086759e+07
+dtype: float64, 'missing_values': Open      0
+High      0
+Low       0
+Close     0
+Volume    0
+dtype: int64}
+2025-03-07 14:05:42,504 - logger - INFO - Outliers detected using Iqr method.
+2025-03-07 14:05:43,530 - logger - INFO - No outliers detected in columns: Open, High, Low, Close
+2025-03-07 14:05:43,546 - logger - INFO - Outliers detected using Iqr method.
+2025-03-07 14:05:43,965 - logger - INFO - No outliers detected in columns: Open, High, Low, Close
+2025-03-07 14:05:43,981 - logger - INFO - Outliers detected using Iqr method.
+2025-03-07 14:05:44,295 - logger - INFO - No outliers detected in columns: Open, High, Low, Close
+2025-03-07 14:08:58,678 - logger - INFO - Outliers handled across all data sources.
+2025-03-07 14:10:37,782 - logger - INFO - Outliers detected using Iqr method.
+2025-03-07 14:10:38,174 - logger - INFO - No outliers detected in columns: Open, High, Low, Close
+2025-03-07 14:10:38,184 - logger - INFO - Outliers detected using Iqr method.
+2025-03-07 14:10:38,605 - logger - INFO - No outliers detected in columns: Open, High, Low, Close
+2025-03-07 14:10:38,622 - logger - INFO - Outliers detected using Iqr method.
+2025-03-07 14:10:39,050 - logger - INFO - No outliers detected in columns: Open, High, Low, Close
