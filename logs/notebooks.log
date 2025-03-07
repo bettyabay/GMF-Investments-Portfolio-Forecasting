@@ -114,3 +114,8 @@ dtype: int64}
 2025-03-07 14:10:38,605 - logger - INFO - No outliers detected in columns: Open, High, Low, Close
 2025-03-07 14:10:38,622 - logger - INFO - Outliers detected using Iqr method.
 2025-03-07 14:10:39,050 - logger - INFO - No outliers detected in columns: Open, High, Low, Close
+2025-03-07 20:46:36,776 - logger - ERROR - Error analyzing Open: 'Close'
+2025-03-07 20:46:36,777 - logger - ERROR - Error analyzing High: 'Close'
+2025-03-07 20:46:36,777 - logger - ERROR - Error analyzing Low: 'Close'
+2025-03-07 20:46:36,777 - logger - ERROR - Error analyzing Close: 'Close'
+2025-03-07 20:46:36,777 - logger - ERROR - Error analyzing Volume: 'Close'
