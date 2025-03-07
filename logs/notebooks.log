@@ -119,3 +119,33 @@ dtype: int64}
 2025-03-07 20:46:36,777 - logger - ERROR - Error analyzing Low: 'Close'
 2025-03-07 20:46:36,777 - logger - ERROR - Error analyzing Close: 'Close'
 2025-03-07 20:46:36,777 - logger - ERROR - Error analyzing Volume: 'Close'
+2025-03-07 21:38:58,682 - logger - INFO - Calculated daily returns.
+2025-03-07 21:38:58,699 - logger - INFO - Calculated VaR at 95.0% confidence: -5.58%
+2025-03-07 21:38:58,699 - logger - INFO - TSLA VaR at 95.0% confidence: -5.58%
+2025-03-07 21:38:58,700 - logger - INFO - Calculated Sharpe Ratio: -0.31
+2025-03-07 21:38:58,700 - logger - INFO - TSLA Sharpe Ratio: -0.31
+2025-03-07 21:38:59,575 - logger - INFO - Calculated daily returns.
+2025-03-07 21:38:59,575 - logger - INFO - Calculated VaR at 95.0% confidence: -0.45%
+2025-03-07 21:38:59,575 - logger - INFO - BND VaR at 95.0% confidence: -0.45%
+2025-03-07 21:38:59,575 - logger - INFO - Calculated Sharpe Ratio: -0.22
+2025-03-07 21:38:59,575 - logger - INFO - BND Sharpe Ratio: -0.22
+2025-03-07 21:38:59,958 - logger - INFO - Calculated daily returns.
+2025-03-07 21:38:59,958 - logger - INFO - Calculated VaR at 95.0% confidence: -1.54%
+2025-03-07 21:38:59,958 - logger - INFO - SPY VaR at 95.0% confidence: -1.54%
+2025-03-07 21:38:59,958 - logger - INFO - Calculated Sharpe Ratio: -0.64
+2025-03-07 21:38:59,958 - logger - INFO - SPY Sharpe Ratio: -0.64
+2025-03-07 21:39:33,332 - logger - INFO - Calculated daily returns.
+2025-03-07 21:39:33,333 - logger - INFO - Calculated VaR at 95.0% confidence: -5.58%
+2025-03-07 21:39:33,333 - logger - INFO - TSLA VaR at 95.0% confidence: -5.58%
+2025-03-07 21:39:33,335 - logger - INFO - Calculated Sharpe Ratio: -0.31
+2025-03-07 21:39:33,335 - logger - INFO - TSLA Sharpe Ratio: -0.31
+2025-03-07 21:39:34,016 - logger - INFO - Calculated daily returns.
+2025-03-07 21:39:34,016 - logger - INFO - Calculated VaR at 95.0% confidence: -0.45%
+2025-03-07 21:39:34,016 - logger - INFO - BND VaR at 95.0% confidence: -0.45%
+2025-03-07 21:39:34,016 - logger - INFO - Calculated Sharpe Ratio: -0.22
+2025-03-07 21:39:34,016 - logger - INFO - BND Sharpe Ratio: -0.22
+2025-03-07 21:39:34,387 - logger - INFO - Calculated daily returns.
+2025-03-07 21:39:34,387 - logger - INFO - Calculated VaR at 95.0% confidence: -1.54%
+2025-03-07 21:39:34,387 - logger - INFO - SPY VaR at 95.0% confidence: -1.54%
+2025-03-07 21:39:34,387 - logger - INFO - Calculated Sharpe Ratio: -0.64
+2025-03-07 21:39:34,387 - logger - INFO - SPY Sharpe Ratio: -0.64
