@@ -135,7 +135,7 @@ class DataAnalysis:
                 mean_return = df['Daily_Return'].mean()  # e.g., 0.1%
                 std_dev = df['Daily_Return'].std()       # e.g., 1%
                 unusual_returns = df[(df['Daily_Return'] > mean_return + threshold * std_dev) |
-                                   (df['Daily_Return'] < mean_return - threshold * std_dev)]
+                                     (df['Daily_Return'] < mean_return - threshold * std_dev)]
 
                 # Plot daily returns
                 plt.figure(figsize=(12, 6))
@@ -146,7 +146,7 @@ class DataAnalysis:
                 # Highlight unusual return days with red dots
                 # For AAPL example: If there was a -3% return day, it would get a red dot
                 plt.scatter(unusual_returns.index, unusual_returns['Daily_Return'], color='red', 
-                          label=f"Unusual Returns (±{threshold}σ)", s=50, marker='o')
+                            label=f"Unusual Returns (±{threshold}σ)", s=50, marker='o')
 
                 # Plot styling
                 plt.title(f"Daily Returns with Unusual Days Highlighted - {symbol}", fontsize=16)
