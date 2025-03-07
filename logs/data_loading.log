@@ -1,0 +1,70 @@
+2025-03-04 13:59:17,797 - INFO - Loading data for TSLA from 2015-01-01 to 2024-10-31
+2025-03-04 13:59:19,091 - INFO - Data for TSLA loaded successfully.
+2025-03-04 13:59:19,091 - INFO - Loading data for BND from 2015-01-01 to 2024-10-31
+2025-03-04 13:59:19,460 - INFO - Data for BND loaded successfully.
+2025-03-04 13:59:19,461 - INFO - Loading data for SPY from 2015-01-01 to 2024-10-31
+2025-03-04 13:59:19,877 - INFO - Data for SPY loaded successfully.
+2025-03-04 14:01:42,793 - INFO - Loading data for TSLA from 2015-01-01 to 2024-10-31
+2025-03-04 14:01:42,860 - INFO - Data for TSLA loaded successfully.
+2025-03-04 14:01:42,860 - INFO - Loading data for BND from 2015-01-01 to 2024-10-31
+2025-03-04 14:01:42,945 - INFO - Data for BND loaded successfully.
+2025-03-04 14:01:42,945 - INFO - Loading data for SPY from 2015-01-01 to 2024-10-31
+2025-03-04 14:01:43,012 - INFO - Data for SPY loaded successfully.
+2025-03-04 14:07:59,622 - INFO - Loading data for TSLA from 2015-01-01 to 2024-10-31
+2025-03-04 14:08:00,995 - INFO - Data for TSLA loaded successfully.
+2025-03-04 14:08:00,995 - INFO - Loading data for BND from 2015-01-01 to 2024-10-31
+2025-03-04 14:08:01,295 - INFO - Data for BND loaded successfully.
+2025-03-04 14:08:01,295 - INFO - Loading data for SPY from 2015-01-01 to 2024-10-31
+2025-03-04 14:08:01,725 - INFO - Data for SPY loaded successfully.
+2025-03-04 14:09:04,411 - INFO - Checking missing values for TSLA
+2025-03-04 14:09:04,414 - INFO - Missing values for TSLA: TSLA    0
+TSLA    0
+TSLA    0
+TSLA    0
+TSLA    0
+dtype: int64
+2025-03-04 14:09:04,419 - INFO - Data has been sorted in ascending order.
+2025-03-04 14:09:04,419 - INFO - Checking missing values for BND
+2025-03-04 14:09:04,419 - INFO - Missing values for BND: Close BND     0
+High BND      0
+Low BND       0
+Open BND      0
+Volume BND    0
+dtype: int64
+2025-03-04 14:09:04,427 - INFO - Data has been sorted in ascending order.
+2025-03-04 14:09:04,427 - INFO - Checking missing values for SPY
+2025-03-04 14:09:04,428 - INFO - Missing values for SPY: Close SPY     0
+High SPY      0
+Low SPY       0
+Open SPY      0
+Volume SPY    0
+dtype: int64
+2025-03-04 14:09:04,432 - INFO - Data has been sorted in ascending order.
+2025-03-04 14:09:04,432 - INFO - Data cleaning completed.
+2025-03-04 14:09:30,792 - INFO - DataFrame for cleaned TSLA before saving:
+2025-03-04 14:09:30,792 - INFO -                  TSLA       TSLA       TSLA       TSLA      TSLA
+Date                                                            
+2015-01-02  14.620667  14.883333  14.217333  14.858000  71466000
+2015-01-05  14.006000  14.433333  13.810667  14.303333  80527500
+2015-01-06  14.085333  14.280000  13.614000  14.004000  93928500
+2015-01-07  14.063333  14.318667  13.985333  14.223333  44526000
+2015-01-08  14.041333  14.253333  14.000667  14.187333  51637500
+2025-03-04 14:09:30,833 - INFO - Cleaned data for TSLA saved to ../data/cleaned\cleaned_TSLA.csv
+2025-03-04 14:09:30,833 - INFO - DataFrame for cleaned BND before saving:
+2025-03-04 14:09:30,833 - INFO -             Close BND   High BND    Low BND   Open BND  Volume BND
+Date                                                              
+2015-01-02  62.387051  62.417245  62.213436  62.220986     2218800
+2015-01-05  62.568275  62.590920  62.424855  62.455049     5820100
+2015-01-06  62.749405  62.938114  62.673923  62.673923     3887600
+2015-01-07  62.787151  62.862634  62.689025  62.756957     2433400
+2015-01-08  62.689034  62.734322  62.628645  62.734322     1873400
+2025-03-04 14:09:30,867 - INFO - Cleaned data for BND saved to ../data/cleaned\cleaned_BND.csv
+2025-03-04 14:09:30,871 - INFO - DataFrame for cleaned SPY before saving:
+2025-03-04 14:09:30,871 - INFO -              Close SPY    High SPY     Low SPY    Open SPY  Volume SPY
+Date                                                                  
+2015-01-02  172.592880  173.811114  171.542687  173.391037   121465900
+2015-01-05  169.475876  171.702279  169.165023  171.534251   169632600
+2015-01-06  167.879608  170.316050  167.073055  169.786749   209151400
+2015-01-07  169.971588  170.316054  168.770174  169.223851   125346700
+2015-01-08  172.987747  173.206195  171.383062  171.399856   147217800
+2025-03-04 14:09:30,898 - INFO - Cleaned data for SPY saved to ../data/cleaned\cleaned_SPY.csv
