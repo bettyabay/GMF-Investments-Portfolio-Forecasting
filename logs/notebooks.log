@@ -149,3 +149,6 @@ dtype: int64}
 2025-03-07 21:39:34,387 - logger - INFO - SPY VaR at 95.0% confidence: -1.54%
 2025-03-07 21:39:34,387 - logger - INFO - Calculated Sharpe Ratio: -0.64
 2025-03-07 21:39:34,387 - logger - INFO - SPY Sharpe Ratio: -0.64
+2025-03-12 16:49:25,058 - logger - ERROR - Error loading data: [Errno 2] No such file or directory: '../data/tsla_forecast_12_months.csv'
+2025-03-12 16:50:20,655 - logger - ERROR - Error loading data: [Errno 2] No such file or directory: '../data/tsla_forecast_12_months.csv'
+2025-03-12 16:50:52,308 - logger - ERROR - Error loading data: [Errno 2] No such file or directory: '../data/tsla_forecast_12_months.csv'
